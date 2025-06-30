@@ -33,7 +33,7 @@ jobs:
       - name: ESLint check
         uses: stefanzweifel/eslint-action@v1
         with:
-          eslint-args: '.'
+          eslint-args: "."
 
       - name: Run tests
         run: npm test
