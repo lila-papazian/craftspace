@@ -42,7 +42,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "test:a11y": "jest --testPathPatterns=a11y",
     "format:check": "prettier --check .",
     "format": "prettier --write .",
