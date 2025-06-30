@@ -27,20 +27,16 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
-
-
-
-    
   },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "*.{json,css,md}": [
-      "prettier --write"
-    ]
-  },
+"lint-staged": {
+  "*.{js,jsx,ts,tsx}": [
+    "eslint --fix",
+    "prettier --write"
+  ],
+  "*.{json,css,md}": [
+    "prettier --write"
+  ]
+},
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
